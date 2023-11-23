@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(../fonts/gilroy-regular.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../fonts/gilroy-medium.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(../fonts/gilroy-semibold.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/gilroy-bold.ttf);
+}
+
+.header {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+.arrow {
+    opacity: 0.6;
+}
+.menu-item-home {
+    color: #F25822;
+}
+
+.content {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 84px;
+    padding-bottom: 162px;
+}
+.content-left {
+    width: 522px;
+}
+.content-lead {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content-second {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 17px;
+    margin-right: 56px;
+}
+.content-button{
+    display: flex;
+    margin-top: 37px;
+    gap: 72px;
+    align-items: center;
+}
+.content-button-lead {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+}
+.content-button-text{
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logos {
+    height: 243px;
+    text-align: center;
+    vertical-align: middle
+    
+}
+.logo {
+    padding-top: 97px;
+}
